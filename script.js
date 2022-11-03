@@ -46,3 +46,50 @@ document.querySelector(".search-bar").addEventListener("keyup", function (event)
 });
 
 weather.fetchWeather("New Delhi");
+
+/*{
+   "coord":{
+      "lon":77.33,
+      "lat":28.58
+   },
+   "weather":[
+      {
+         "id":804,
+         "main":"Clouds",
+         "description":"overcast clouds",
+         "icon":"04d"
+      }
+   ],
+   "base":"stations",
+   "main":{
+      "temp":28.16,
+      "feels_like":26.97,
+      "temp_min":28.16,
+      "temp_max":28.16,
+      "pressure":1010,
+      "humidity":24,
+      "sea_level":1010,
+      "grnd_level":987
+   },
+   "visibility":10000,
+   "wind":{
+      "speed":3.32,
+      "deg":307,
+      "gust":5.24
+   },
+   "clouds":{
+      "all":93
+   },
+   "dt":1667461329,
+   "sys":{
+      "type":1,
+      "id":9165,
+      "country":"IN",
+      "sunrise":1667437425,
+      "sunset":1667477078
+   },
+   "timezone":19800,
+   "id":7279746,
+   "name":"Noida",
+   "cod":200
+}*/
